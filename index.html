@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Portfólio - Guilherme Lima</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <h1>Guilherme Lima</h1>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre-mim">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li>
+              <a href="assets/curriculo.pdf" download="Curriculo-Guilherme.pdf"
+                >Baixar CV</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="assets/img/menu_white_36dp.svg" alt="menu" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre-mim">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li>
+            <a href="assets/curriculo.pdf" download="Curriculo-Guilherme.pdf"
+              >Baixar CV</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <p class="intro">Bem-vindo ao meu portfólio 👨‍💻</p>
+      <h2>Prazer, sou <span class="highlight">Guilherme</span></h2>
+      <h3>Desenvolvedor Full Stack</h3>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/guilhermee-limaa/?originalSubdomain=br"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/guilhermeelimaa" target="_blank">GitHub</a>
+        <a href="mailto:65guilhermelima@gmail.com">Email</a>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre-mim">
+      <h2 class="titulo-sobre">💡 Sobre Mim</h2>
+      <p class="texto-sobre">
+        Sou <strong class="highlight-tech">Desenvolvedor Full Stack</strong>,
+        atuando na criação de soluções para web com
+        <span class="highlight-tech">HTML</span>,
+        <span class="highlight-tech">CSS</span>,
+        <span class="highlight-tech">JavaScript</span>,
+        <span class="highlight-tech">Python</span>,
+        <span class="highlight-tech">C#</span>,
+        <span class="highlight-tech">Java</span>,
+        <span class="highlight-tech">MySQL</span> e
+        <span class="highlight-tech">Git</span>. Além do desenvolvimento web,
+        também tenho experiência em criação de jogos utilizando
+        <span class="highlight-tech">GML (GameMaker Language)</span>.
+      </p>
+
+      <div class="tecnologias">
+        <div class="tech-card">
+          <i class="devicon-javascript-plain colored"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="tech-card">
+          <i class="devicon-html5-plain colored"></i>
+          <p>HTML</p>
+        </div>
+        <div class="tech-card">
+          <i class="devicon-css3-plain colored"></i>
+          <p>CSS</p>
+        </div>
+        <div class="tech-card">
+          <i class="devicon-python-plain colored"></i>
+          <p>Python</p>
+        </div>
+        <div class="tech-card">
+          <i class="devicon-csharp-plain colored"></i>
+          <p>C#</p>
+        </div>
+        <div class="tech-card">
+          <i class="devicon-java-plain colored"></i>
+          <p>Java</p>
+        </div>
+        <div class="tech-card">
+          <span class="gml-icon">🎮</span>
+          <p>GML</p>
+        </div>
+        <div class="tech-card">
+          <i class="devicon-mysql-plain colored"></i>
+          <p>MySQL</p>
+        </div>
+        <div class="tech-card">
+          <i class="devicon-git-plain colored"></i>
+          <p>Git</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="projects" id="projetos">
+      <h2>🚀 Projetos</h2>
+      <p>Confira alguns dos meus trabalhos abaixo</p>
+
+      <div class="project-grid">
+        <!-- Projeto 1 -->
+        <div class="project-card">
+          <img src="assets/img/flappycat.PNG" alt="Flappy Cat" />
+          <h3>Flappy Cat</h3>
+          <div class="project-tech">
+            <span>GameMaker</span>
+            <span>GML</span>
+          </div>
+          <p>
+            Desenvolvido utilizando o GameMaker, este jogo é inspirado no estilo
+            clássico de jogos "flappy". Flappy Cat oferece uma experiência
+            divertida e simples para jogadores de todas as idades.
+          </p>
+
+          <a href="#" class="btn">
+            Ver Projeto <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="project-card">
+          <img src="assets/img/galaxypong.PNG" alt="Galaxy Pong" />
+          <h3>Galaxy Pong</h3>
+          <div class="project-tech">
+            <span>GameMaker</span>
+            <span>GML</span>
+          </div>
+          <p>
+            Galaxy Pong é um jogo de Pong com tema espacial, com modos para 1 ou 2 jogadores e
+            diferentes níveis de dificuldade.
+          </p>
+
+          <a href="#" class="btn">
+            Ver Projeto <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="project-card">
+          <img src="assets/img/space raiders.PNG" alt="Space Riders" />
+          <h3>Space Riders</h3>
+          <div class="project-tech">
+            <span>GameMaker</span>
+            <span>GML</span>
+          </div>
+          <p>
+            Um jogo de nave no estilo arcade, onde você deve desviar de inimigos e destruí-los
+            para alcançar a maior pontuação possível.
+          </p>
+
+          <a href="#" class="btn">
+            Ver Projeto <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
